@@ -1,0 +1,14 @@
+# Macro file for NADetector
+# 
+# Can be run in batch, without graphic
+# or interactively: Idle> /control/execute run.mac
+#
+# Initialize kernel
+/run/initialize
+#
+# Default kinematics: 
+# proton 14 MeV in direction (0.,0.,1.)
+#
+
+/gun/energy 14 MeV
+/run/beamOn 500
